@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-
- <input type="submit" formaction="task1day4.html" value="Submit">
-</form>
-
-</body>
-</html>
+https://www.vlab.co.in/participating-institutes
+https://www.vlab.co.in/contact-us
+https://www.vlab.co.in
