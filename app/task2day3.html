@@ -6,6 +6,7 @@
 table,th,td {
 border: 1px solid black;
 border-collapse: collapse;
+table-layout: fixed;
 outline-style:solid;
 }
 th {
@@ -22,6 +23,15 @@ height:75px;
 h2{
 padding:20px
 }
+
+td:last-child{
+	text-align:right;
+	}
+th:last-child{
+	text-align:right;
+}
+
+
 </style>
 </head>
 <body>
@@ -38,8 +48,8 @@ padding:20px
 		<th>Marks</th>
 	</tr>
 	<tr>
-		<td>Java</td>
-		<td>75</td>
+		<td><a>Java</a></td>
+		<td><a>75 </a></td>
 	</tr>
 	<tr>
 		<td>Python</td>
