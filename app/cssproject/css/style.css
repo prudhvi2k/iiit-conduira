@@ -13,15 +13,36 @@ body{
 	margin:auto;
 	
 }
-a{
-	text-decoration:none;
+a:link {
+  color: red;
 }
-a:hover{
-	color:red
+
+a:visited {
+  color: green;
 }
-a:active{
-	color:green
+
+a:hover {
+  color: hotpink;
 }
+
+a:active {
+  color: blue;
+}
+a:link {
+  background-color: yellow;
+}
+
+a:visited {
+  background-color: cyan;
+}
+
+a:hover {
+  background-color: lightgreen;
+}
+
+a:active {
+  background-color: hotpink;
+} 
 
 .box1{
 	background-color:#333;
