@@ -11,10 +11,27 @@ body{
 	margin:auto;
 	
 }
+a{
+	text-decoration:none;
+}
+a:hover{
+	color:red
+}
+a:active{
+	color:green
+}
 
 .box1{
 	background-color:#333;
 	border:5px red solid;
 	border-width:3px;
 	color:#fff;
+}
+.categories{
+	border:1px #ccc solid;
+	padding:10px;
+	border-radius:15px;	
+}
+.categories h2{
+	text-align:center;
 }
